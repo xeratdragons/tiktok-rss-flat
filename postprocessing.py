@@ -18,10 +18,10 @@ logger.setLevel(logging.DEBUG)
 # Now using a new TikTok library https://github.com/Russell-Newton/TikTokPy
 
 # Normal GitHub Pages URL
-ghPagesURL = "https://xeratdragons.github.io/tiktok-rss-flat/"
+# ghPagesURL = "https://skyborne99.github.io/tiktok-rss-flat/"
 
 # Custom Domain
-#ghPagesURL = "https://tiktokrss.conoroneill.com/"
+ghPagesURL = "https://xeratdragons.github.io/tiktok-rss-flat/"
 
 maxItems = 5
 
@@ -88,4 +88,3 @@ with open('subscriptions.csv') as f:
     for row in csv.DictReader(f, fieldnames=['username']):
         print(row['username'])
         run(row['username'])
-
