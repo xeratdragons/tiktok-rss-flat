@@ -1,2 +1,5 @@
-2024-12-26 11:16:54,120 Using selector: EpollSelector
-2024-12-26 11:18:56,433 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-12-26 12:40:27,249 Using selector: EpollSelector
+2024-12-26 12:40:33,822 Error: Page.goto: net::ERR_SSL_PROTOCOL_ERROR at https://www.tiktok.com/@xeratdragons
+Call log:
+  - navigating to "https://www.tiktok.com/@xeratdragons", waiting until "load"
+
